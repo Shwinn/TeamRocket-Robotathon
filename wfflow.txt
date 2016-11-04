@@ -1,0 +1,18 @@
+Wall Following flowchart
+We have 2 distance sensors 
+So one on the front, one on the right
+if (wall on the right but no wall on the front){
+	if (distance to right wall is decreasing> threshold){
+		turn left a little
+	}
+	if (distance to right wall is increasing> threshold){
+		turn right a little
+	}
+}
+if(no wall on right){
+	turn right 90 degrees
+}
+if(wall on the right and front){
+	turn left 90 degrees
+}
+
